@@ -15,11 +15,12 @@ Data Dictionary:
  - age : user age. Self-reported at sign-in step
  - new_user : whether the user created the account during this session or had already an account and simply came back to the site
  - source : marketing channel source
+ - converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. 
  a) Ads: came to the site by clicking on an advertisement
  b) Seo: came to the site by clicking on search results
  c) Direct: came to the site by directly typing the URL on the browser
  - total_pages_visited: number of total pages visited during the session. This is a proxy for time spent on site and engagement                         during the session.
-- converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. 
+
 
 Goal:
 The company goal is to increase conversion rate: # conversions/ total sessions.
