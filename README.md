@@ -19,4 +19,7 @@ Data Dictionary:
  b) Seo: came to the site by clicking on search results
  c) Direct: came to the site by directly typing the URL on the browser
  - total_pages_visited: number of total pages visited during the session. This is a proxy for time spent on site and engagement                         during the session.
-- converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. The company goal is to increase conversion rate: # conversions/ total sessions.
+- converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. 
+
+Goal:
+The company goal is to increase conversion rate: # conversions/ total sessions.
