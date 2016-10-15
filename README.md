@@ -13,9 +13,10 @@ Data Dictionary:
 
  - country : user country based on the IP address
  - age : user age. Self-reported at sign-in step
+ - converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. 
  - new_user : whether the user created the account during this session or had already an account and simply came back to the site
  - source : marketing channel source
- - converted: this is our label. 1 means they converted within the session, 0 means they left without buying anything. 
+
  a) Ads: came to the site by clicking on an advertisement
  b) Seo: came to the site by clicking on search results
  c) Direct: came to the site by directly typing the URL on the browser
